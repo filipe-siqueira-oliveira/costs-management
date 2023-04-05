@@ -5,7 +5,7 @@ import Input from "../form/Input";
 import Select from "../form/Select";
 import SubmitButton from "../form/SubmitButton";
 
-function ProjectForm({ handleSubmit, projectData }) {
+function ProjectForm({ handleSubmit, projectData, btnText }) {
   const [categories, setCategories] = useState([]);
   const [project, setProject] = useState(projectData || {});
 
@@ -66,7 +66,7 @@ function ProjectForm({ handleSubmit, projectData }) {
         handleOnChange={handleCategory}
         value={project.category ? project.category.id : ""}
       />
-      <SubmitButton text="Criar Projeto" />
+      <SubmitButton text={btnText} />
     </form>
   );
 }
