@@ -4,6 +4,7 @@
   border-radius: 5px;
   width: 24%;
   margin: 0.5%;
+  margin-bottom: 10px;
 }
 
 .project_card h4 {
@@ -84,4 +85,58 @@
 .project_card_actions button:hover {
   background-color: #222;
   color: #ffbb33;
+}
+
+@media (max-width: 420px) {
+  .project_card {
+    width: 250px;
+  }
+  .project_card h4 {
+    font-size: 14px;
+  }
+  .project_card p {
+    font-size: 10px;
+  }
+  .project_card p span {
+    font-size: 15px;
+  }
+  .project_card button {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 950px) {
+  .project_card {
+    width: 420px;
+  }
+  .project_card h4 {
+    font-size: 20px;
+  }
+  .project_card p {
+    font-size: 15px;
+  }
+  .project_card p span {
+    font-size: 15px;
+  }
+  .project_card button {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1330px) {
+  .project_card {
+    width: 390px;
+  }
+  .project_card h4 {
+    font-size: 20px;
+  }
+  .project_card p {
+    font-size: 15px;
+  }
+  .project_card p span {
+    font-size: 15px;
+  }
+  .project_card button {
+    font-size: 13px;
+  }
 }

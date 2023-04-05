@@ -18,3 +18,33 @@
   flex-direction: column;
   justify-content: flex-start;
 }
+
+@media (max-width: 1330px) {
+  .container {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 950px) {
+  .container {
+    width: 420px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 420px) {
+  .container {
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+}

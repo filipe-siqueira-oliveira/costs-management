@@ -3,6 +3,7 @@
   justify-content: space-between;
   background-color: #222;
   padding: 1em;
+  align-items: center;
 }
 
 .list {
@@ -21,4 +22,16 @@
 }
 .item a:hover {
   color: #ffbb33;
+}
+
+@media (max-width: 420px) {
+  .logo {
+    width: 30px;
+    height: 30px;
+  }
+  .item a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+  }
 }

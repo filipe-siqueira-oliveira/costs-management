@@ -1,7 +1,7 @@
 .footer {
   background-color: #222;
   color: #fff;
-  padding: 3em;
+  padding: 2em;
   text-align: center;
   width: 100%;
 }
@@ -32,4 +32,16 @@
 .copy_right span {
   font-weight: bold;
   color: #ffbb33;
+}
+
+@media (max-width: 420px) {
+  .copy_right {
+    margin-top: 2em;
+    font-size: 10px;
+  }
+
+  .social_list svg {
+    font-size: 15px;
+    cursor: pointer;
+  }
 }

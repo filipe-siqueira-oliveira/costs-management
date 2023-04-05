@@ -14,3 +14,8 @@
   border-radius: 0;
   border: none;
 }
+@media (max-width: 420px) {
+  .form_control label {
+    font-size: 13px;
+  }
+}
